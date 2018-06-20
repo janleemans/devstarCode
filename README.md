@@ -246,7 +246,7 @@ The Alien War Ship has sent out 10 Mini Fighters to attack your fighters! You ne
 
 3. When your updated microservice is live, it will hopefully hit the Mini Fighters sent out by the Alien War Ship!
 
-4. If you feel that your microservice is not behaving correctly or might not have been deployed correctly, have a look at the logs as described [here](../logs.md).
+4. If you feel that your microservice is not behaving correctly or might not have been deployed correctly, have a look at the logs as described [here](logs.md).
 
 ## Mission: Destroy the Reactor Core! ##
 
