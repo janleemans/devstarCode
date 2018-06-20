@@ -45,12 +45,12 @@ Your squad will get points as you complete missions. When you have completed all
 
 | Weapon        | Git Repo to Fork  |
 | ------------- | -----|
-| Node.js       |https://github.com/oracledevstar/nodecode|
-| Java SE     |   https://github.com/oracledevstar/javacode |
-| PHP | https://github.com/oracledevstar/phpcode |
-|Ruby       |https://github.com/oracledevstar/rubycode|
-| Go    |   https://github.com/oracledevstar/gocode |
-| Python | https://github.com/oracledevstar/pythoncode |
+| Node.js       |https://github.com/CloudTestDrive/nodecode|
+| Java SE     |   https://github.com/CloudTestDrive/javacode |
+| PHP | https://github.com/CloudTestDrive/phpcode |
+|Ruby       |https://github.com/CloudTestDrive/rubycode|
+| Go    |   https://github.com/CloudTestDrive/gocode |
+| Python | https://github.com/CloudTestDrive/pythoncode |
 
 1. Click (or right click and open in a new tab) on your preferred weapon's Git repository above and fork into your own repository. 
 <img src="images/github_fork.PNG">
