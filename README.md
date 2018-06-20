@@ -154,7 +154,7 @@ The screenshots below shows changing a file for the Node.js weapon
 
 <img src="images/github_save.PNG">
 
-6. Monitor the Dev Star dashboard to await your fighter being deployed! If you can't see the Dashboard well on the projector/screen, just open the following url http://bit.ly/DevStarUI. Your space fighter should appear in the dashboard and complete it's first strike to the Alien War Ship!
+6. Monitor the Dev Star dashboard to await your fighter being deployed! If you can't see the Dashboard well on the projector/screen, just open [this url](http://140.86.15.104:8089/). Your space fighter should appear in the dashboard and complete it's first strike to the Alien War Ship!
 
 If you want, you can check the progress of the build inside Wercker by pressing Runs and the build you want to monitor.
 
@@ -211,7 +211,7 @@ The Alien War Ship is protected by it's powerful shield. As long as we can't bre
 - For Go, the file is located at service.go
 - For Python, the file is located at app.py
 
-The base URL of the shield is ```http://129.157.179.180:3000/shield/x-coordinate_goes_here/y-coordinate_goes_here/Your_squad_color_goes_here/Your_microservice_name_goes_here```. **The shield will get hit by HTTP GET Request bullets!**
+The base URL of the shield is ```http://140.86.15.104:3000/shield/x-coordinate_goes_here/y-coordinate_goes_here/Your_squad_color_goes_here/Your_microservice_name_goes_here```. **The shield will get hit by HTTP GET Request bullets!**
 
 **Hint: Make sure that your code/function is actually being called**
 
@@ -238,7 +238,7 @@ The Alien War Ship has sent out 10 Mini Fighters to attack your fighters! You ne
 
 1. You should now have received information from the spy that will give you the y-coordinates of the Mini Fighters. The example below would shoot down ***one*** of the Mini Fighters. ***The x-coordinate is always locked at coordinate 45***.
 
-```http://129.157.179.180:3000/fighters/45/y-coordinate_goes_here/Your_squad_color_goes_here/Your_microservice_name_goes_here```. **The Mini Fighters will get hit by HTTP GET Request bullets!**
+```http://140.86.15.104:3000/fighters/45/y-coordinate_goes_here/Your_squad_color_goes_here/Your_microservice_name_goes_here```. **The Mini Fighters will get hit by HTTP GET Request bullets!**
 
 **Hint: Notice the changed endpoint 'fighters'**
 
@@ -260,13 +260,13 @@ The spy should now have exposed the secrets of the database where the Alien War 
 - Number of points for this mission: **500**
 
 ### Mission Instructions ###
-1. Check the spy for the credentials to the Alien War Ship's MySQL database where the coordinates for the Core Reactor is kept. Develop a MySQL query that queries the **SecretTable** to retrieve information about the Reactor Core coordinates! The Host IP address of the database is  **129.157.179.180**
+1. Check the spy for the credentials to the Alien War Ship's MySQL database where the coordinates for the Core Reactor is kept. Develop a MySQL query that queries the **SecretTable** to retrieve information about the Reactor Core coordinates! The Host IP address of the database is  **140.86.15.104**
 
 Tip: For Java, you should also check out src/main/java/com/example/rest/DBConnection.java
 Tip: For Python, you should check out config.py
 
 2. When you have the coordinates, hit the Reactor Core at the following URL:
-```http://129.157.179.180:3000/reactorCore/x-coordinate_goes_here/y-coordinate_goes_here/Your_squad_color_goes_here/Your_microservice_name_goes_here```.
+```http://140.86.15.104:3000/reactorCore/x-coordinate_goes_here/y-coordinate_goes_here/Your_squad_color_goes_here/Your_microservice_name_goes_here```.
 **The Reactor Core will get hit by HTTP GET Request bullets!**
 
 **Hint: Notice the changed endpoint 'reactorCore'**
