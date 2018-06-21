@@ -103,6 +103,11 @@ It is now time to configure the deployment pipeline. For Wercker to know how it 
 10. **Now is the time to select your squad!** Have a look at the squad credentials document. Look at the TV monitor for the bit.ly address to download the document. Note that the username, password, identity domain and identifier are unique for a squad. **Make sure your select the credentials for the squad you want to belong to!**
 Fill in the environment variables based on your squad's credentials like below.
 
+- OPC_USERNAME
+- OPC_PASSWORD
+- IDENTITY_DOMAIN
+- IDENTIFIER
+
 <img src="images/wercker_envProps.PNG">
 
 ### Ready to Deploy
