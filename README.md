@@ -114,46 +114,25 @@ Fill in the environment variables based on your squad's credentials like below.
 
 1. Let's first make a change to the GitHub repository to check that the automated build and deploy is working. As soon as you commit a difference in the repository, Wercker will start a build job and deploy a new version to Application Container Cloud.
 
-You can either make changes in the GitHub editor (as shown below) or clone your repository to your computer, make changes locally and then push the changes to the remote GitHub repository.  
+We need to check that you are referring to the correct cloud instance in the Wercker configuration file "Wercker.yml"
+We'll correct the name of your instance and commit the file.  
 
- **Node.js**: Open the file *xwingnodeclient/app.js* and on the first line insert a comment line with some text.
-```                       
-// My microservice!
-```
- **Java**: Open the file *src/main/java/com/example/rest/App.java* and on the first line insert a comment line.
-```
- // My microservice!
-```
- **PHP**: Open the file *index.php* and edit the line on row 2 (below "<php") and insert a comment line.
-```
-// My microservice!
-```
- **Ruby**: Open the file *app.rb* and insert a comment line.
-```
-# My microservice!
-```
- **Go**: Open the file *service.go* and insert a comment line in the main() function.
-```
-// My microservice!
-```
- **Python**: Open the file *app.py* and insert a comment line in the home() function.
-```
-# My microservice!
-```
+You can either make these changes in the GitHub editor (as shown below) or clone your repository to your computer, make changes locally and then push the changes to the remote GitHub repository.  
+
 
 The screenshots below shows changing a file for the Node.js weapon
 
-2. Go to your GitHub repository that you forked earlier. Select a file depending on your selected language (as described above).
+2. Go to your GitHub repository that you forked earlier. Select the werker.yml file.
 
-<img src="images/github_open.PNG">
+<img src="images/editwercker.png">
 
 3. Press the Edit icon to start making changes to the file
 
 <img src="images/github_edit.PNG">
 
-4. Make a small change
+4. Enter the name of the instance you are using as show below.  For test environments provided by oracle this is typically gse000xxxx, with xxxx depending on your team.
 
-<img src="images/github_change.PNG">
+<img src="images/changeinstance.png">
 
 5. Save the file and commit the changes.
 
